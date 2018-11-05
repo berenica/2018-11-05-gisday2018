@@ -1,20 +1,20 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "FIXME"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
+venue: "Research Commons, Simon Fraser University Library"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "Room 1415, 515 W Hastings St, Vancouver, BC V6B 5K3"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+country: "CA"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+latlng: "49.284589,-123.111649"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
+humandate: "Nov 13, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:00AM - 5:00PM"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2018-11-13      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2018-11-13        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Aateka Shashank"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: [""]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["research-commons@sfu.ca."]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -56,8 +56,11 @@ and our administrator may contact you if we need any extra information.</h4>
 {% comment %}
   INTRODUCTION
 
-  Edit the general explanatory paragraph below if you want to change
-  the pitch.
+The lessons in this workshop will cover how to open, work with, and plot vector and raster-format spatial data in R.
+
+Additional topics include: working with spatial metadata (extent and coordinate reference systems), reprojecting spatial data, and working with raster time series data.
+
+By the end of this workshop, participants will be able to: import and export raster and vector data from R; analyze and edit raster and vector data; explore spatio-temporal data in R.
 {% endcomment %}
 {% if page.carpentry == "swc" %}
   {% include sc/intro.html %}
@@ -70,8 +73,7 @@ and our administrator may contact you if we need any extra information.</h4>
 {% comment %}
   AUDIENCE
 
-  Explain who your audience is.  (In particular, tell readers if the
-  workshop is only open to people from a particular institution.
+  This workshop is intended for SFU researchers but is open to interested others, space permitting.
 {% endcomment %}
 {% if page.carpentry == "swc" %}
   {% include sc/who.html %}
