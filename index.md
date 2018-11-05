@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "Research Commons, Simon Fraser University Library"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "Simon Fraser University Harbour Centre"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Room 1415, 515 W Hastings St, Vancouver, BC V6B 5K3"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "CA"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
