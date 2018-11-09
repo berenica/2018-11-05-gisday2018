@@ -114,7 +114,7 @@ By the end of this workshop, participants will be able to: import and export ras
   Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants will need to bring their own laptops with the most recent version of R and Rstudio installed. For installation instructions and to download the data used in this lesson, see the <a href="https://datacarpentry.org/geospatial-workshop/setup.html">workshop homepage. They are also required to abide by
+  <strong>Requirements:</strong> Participants will need to bring their own laptops with the most recent version of R and Rstudio installed. They are also required to abide by
   {% if page.carpentry == "swc" %}
   Software Carpentry's
   {% elsif page.carpentry == "dc" %}
