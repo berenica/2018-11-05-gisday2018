@@ -11,7 +11,7 @@ humantime: "9:00AM - 5:00PM"    # human-readable times for the workshop (e.g., "
 startdate: 2018-11-13      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-11-13        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Aateka Shashank"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["N/A"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Mladen Raković"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["research-commons@sfu.ca."]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 
@@ -49,7 +49,7 @@ collaborative_notes:             # optional: URL for the workshop collaborative 
 <h2 id="general">General Information</h2>
 
 {% comment %}
-  INTRODUCTION
+INTRODUCTION
 
 The lessons in this workshop will cover how to open, work with, and plot vector and raster-format spatial data in R.
 
