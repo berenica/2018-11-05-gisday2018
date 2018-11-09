@@ -56,6 +56,7 @@ The lessons in this workshop will cover how to open, work with, and plot vector 
 Additional topics include: working with spatial metadata (extent and coordinate reference systems), reprojecting spatial data, and working with raster time series data.
 
 By the end of this workshop, participants will be able to: import and export raster and vector data from R; analyze and edit raster and vector data; explore spatio-temporal data in R.
+
 {% endcomment %}
 {% if page.carpentry == "swc" %}
   {% include sc/intro.html %}
@@ -116,10 +117,7 @@ By the end of this workshop, participants will be able to: import and export ras
   Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
+  <strong>Requirements:</strong> Participants will need to bring their own laptops with the most recent version of R and Rstudio installed. For installation instructions and to download the data used in this lesson, see the <a href="{{https://datacarpentry.org/geospatial-workshop/setup.html">workshop homepage. They are also required to abide by
   {% if page.carpentry == "swc" %}
   Software Carpentry's
   {% elsif page.carpentry == "dc" %}
