@@ -48,9 +48,6 @@ collaborative_notes:             # optional: URL for the workshop collaborative 
 
 <h2 id="general">General Information</h2>
 
-{% comment %}
-INTRODUCTION
-
 The lessons in this workshop will cover how to open, work with, and plot vector and raster-format spatial data in R.
 
 Additional topics include: working with spatial metadata (extent and coordinate reference systems), reprojecting spatial data, and working with raster time series data.
